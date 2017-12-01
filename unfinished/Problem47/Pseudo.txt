@@ -1,0 +1,17 @@
+Prime Factorize a number
+    Divide by the smallest possible prime number
+        Store all primes in an array
+    Divide the resultant by the next smallest number
+        Iterate through the array
+    Continue until the next smallest is also prime
+        If the array is completely checked, and the next smallest isn't prime, generate the next prime and append it
+        If next smallest is prime, exit the checks with the prime factorizations
+
+Check the numbers around it to see if there is a run of four with unique factors
+    Store the current prime factorization in a map with an array of the prime factors as the value
+    Check the previous three keys to see if they repeat any of the current prime factors
+        Start with the i-1 key and check the past one for repeats
+        Check the i-2 key for any repeats with i-3
+        If no repeats, print i-3
+        If repeats, delete i-3
+    Repeat until the previous loop exits true

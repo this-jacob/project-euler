@@ -1,0 +1,14 @@
+The number 209 can be expressed as a^2+3ab+b^2 in two distinct ways:
+
+209=8^2+3⋅8⋅5+5^2
+209=13^2+3⋅13⋅1+1^2
+
+Let f(n,r) be the number of integers k not exceeding n that can be expressed as
+k=a^2+3ab+b^2, with a>b>0a>b>0 integers, in exactly r different ways.
+
+You are given that f(105,4)=237 and f(108,6)=59517.
+
+Find f(1015,40).
+
+NOTE: The originally published inequality a≥b>0 as the condition for finding f(n,r) has been changed to a>b>0
+So if your answer is being rejected, please check if you are using the correct condition.
