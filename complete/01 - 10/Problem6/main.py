@@ -9,7 +9,7 @@ def main():
 
     squareSum = squareSum ** 2
 
-    print str(squareSum - sumSquare)
+    print(str(squareSum - sumSquare))
 
 if __name__ == '__main__':
     main()

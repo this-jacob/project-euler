@@ -12,8 +12,8 @@ def main():
             finalI = i
             highestLen = newLen
 
-    print finalI
-    print time() - start
+    print(finalI)
+    print(time() - start)
 
 def divideBy(n, div):
     ins = []

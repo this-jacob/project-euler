@@ -12,8 +12,8 @@ def main():
             if not ab in terms:
                 terms.append(ab)
 
-    print len(terms)
-    print time.time() - start_time
+    print(len(terms))
+    print(time.time() - start_time)
 
 
 if __name__ == '__main__':

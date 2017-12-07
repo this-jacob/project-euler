@@ -20,8 +20,8 @@ def main():
             if each[0] + each[1] == pentagonals[-1]:
                 #Check differences
                 if abs(each[0] - each[1]) in pentagonals:
-                    print each[0]
-                    print each[1]
+                    print(each[0])
+                    print(each[1])
                     solved = True
 
     return

@@ -5,7 +5,7 @@ def main():
     primes = 1
     it = 2
 
-    while primes < 81141418:
+    while primes < 10001:
 
         flag = True
 
@@ -17,7 +17,7 @@ def main():
             flag = False
 
         if flag:
-            print it
+            print(it)
             primes += 1
 
         it += 1

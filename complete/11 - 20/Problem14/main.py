@@ -27,7 +27,7 @@ def main():
             startingNumber = startNum
 
     #print the index to start
-    print startingNumber
+    print(startingNumber)
 
 
 

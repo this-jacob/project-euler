@@ -15,8 +15,8 @@ def main():
         fone = f
         index += 1
 
-    print index
-    print time.time() - start_time
+    print(index)
+    print(time.time() - start_time)
 
 if __name__ == '__main__':
     main()

@@ -31,7 +31,7 @@ def main():
             #go through the days
             for day in range(1, daysInMonth[month] + 1):
 
-                print month , day , weekday
+                print(month , day , weekday)
 
                 if day == 1 and weekday == 6:
                     total += 1
@@ -49,8 +49,8 @@ def main():
 
 
     #print the totals
-    print total
-    print time.time() - start_time
+    print(total)
+    print(time.time() - start_time)
 
 if __name__ == '__main__':
     main()

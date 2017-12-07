@@ -21,8 +21,8 @@ def main():
             step -= 2
             stepsTaken = 0
 
-    print sumation + 1
-    print time() - start
+    print(sumation + 1)
+    print(time() - start)
 
 if __name__ == '__main__':
     main()

@@ -13,14 +13,14 @@ def main():
         if prime(i):
             if truncate(i):
                 truncatablePrimes.append(i)
-                print i
+                print(i)
 
     for primes in truncatablePrimes:
         summ += primes
 
-    print truncatablePrimes
-    print summ
-    print time() - start
+    print(truncatablePrimes)
+    print(summ)
+    print(time() - start)
 
 def truncate(n):
     s = str(n)

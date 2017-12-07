@@ -9,8 +9,8 @@ def main():
         if pal(i) and pal(int(str(bin(i))[2:])):
             total += i
 
-    print total
-    print time() - start
+    print(total)
+    print(time() - start)
 
 def pal(n):
     stri = str(n)

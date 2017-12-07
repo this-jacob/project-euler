@@ -24,8 +24,8 @@ def main():
         if abund > i:
             abundantNums.append(i)
 
-    print abundantNums
-    print time.time() - start_time
+    print(abundantNums)
+    print(time.time() - start_time)
 
     for each1 in abundantNums:
         for each2 in abundantNums:
@@ -38,8 +38,8 @@ def main():
         if not canBeAbundant[i]:
             total += i
 
-    print total
-    print time.time() - start_time
+    print(total)
+    print(time.time() - start_time)
 
 if __name__ == '__main__':
     main()

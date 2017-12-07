@@ -16,8 +16,8 @@ def main():
                             for g in range(f, -1, -2):
                                     ways += 1
 
-    print ways
-    print time() - start
+    print(ways)
+    print(time() - start)
 
 if __name__ == '__main__':
     main()

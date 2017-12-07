@@ -14,7 +14,7 @@ def main():
         if currentFib % 2 == 0:
             total += currentFib
 
-    print total
+    print(total)
 
 
 if __name__ == '__main__':

@@ -25,8 +25,8 @@ def main():
         grandDen *= denomenators[i]
 
 
-    print grandNum , grandDen
-    print time() - start
+    print(grandNum , grandDen)
+    print(time() - start)
 
 if __name__ == '__main__':
     main()

@@ -17,7 +17,7 @@ def main():
         if check > product:
             product = check
 
-    print product
+    print(product)
 
 
 

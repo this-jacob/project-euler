@@ -22,7 +22,7 @@ def main():
             if triangle % i == 0:
                 divs += 2
 
-    print triangle
+    print(triangle)
 
 
 

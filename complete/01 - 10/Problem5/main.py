@@ -17,7 +17,7 @@ def main():
 
         num += 1
 
-    print num - 1
+    print(num - 1)
     raise SystemExit
 
 

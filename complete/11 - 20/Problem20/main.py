@@ -9,7 +9,7 @@ def main():
     for num in str(fact):
         total += int(num)
 
-    print total
-    
+    print(total)
+
 if __name__ == '__main__':
     main()

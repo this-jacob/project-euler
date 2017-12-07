@@ -23,7 +23,7 @@ def main():
         nums += 1
         it += 1
 
-    print val
+    print(val)
 
 
 if __name__ == '__main__':

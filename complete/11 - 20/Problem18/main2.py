@@ -24,9 +24,9 @@ def main():
             else:
                 numbers[row][col] += numbers[row + 1][col + 1]
 
-    print numbers[0][0]
+    print(numbers[0][0])
 
-    print time() - start_time
+    print(time() - start_time)
 
 if __name__ == '__main__':
     main()

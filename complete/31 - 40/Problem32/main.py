@@ -14,14 +14,14 @@ def main():
             if len(str(m1) + str(m2) + str(product)) == 9:
                 if isPan(str(m1) + str(m2) + str(product)):
                     if not product in products:
-                        print m1, m2, product
+                        print(m1, m2, product)
                         products.append(product)
 
     for each in products:
         total += each
 
-    print total
-    print time() - start
+    print(total)
+    print(time() - start)
 
 def isPan(n):
     if '0' in str(n):

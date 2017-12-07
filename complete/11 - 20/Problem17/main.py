@@ -6,7 +6,7 @@ def main():
     for i in range(1, 1001):
         totalLetters += makeWordsLength(i)
 
-    print totalLetters
+    print(totalLetters)
 
 #function for returning the string version of a number without spaces
 def makeWordsLength(n):
@@ -140,7 +140,7 @@ def makeWordsLength(n):
     if hund:
         number += 'and'
 
-    print number
+    print (number)
 
     return len(number)
 

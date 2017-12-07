@@ -47,13 +47,13 @@ def main():
     for y in range(3, 20):
         for x in range(0, 17):
 
-            print x , y
+            print(x , y)
 
             if numbers[x][y] * numbers[x + 1][y - 1] * numbers[x + 2][y - 2] * numbers[x + 3][y - 3] > highest:
                 highest = numbers[x][y] * numbers[x + 1][y - 1] * numbers[x + 2][y - 2] * numbers[x + 3][y - 3]
 
     #print out the highest
-    print highest
+    print(highest)
 
 
 

@@ -31,7 +31,7 @@ def main():
         nameVal *= (i + 1)
         total += nameVal
 
-    print total
+    print(total)
 
 def letterVal(letter):
 

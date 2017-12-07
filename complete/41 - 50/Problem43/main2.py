@@ -12,7 +12,7 @@ def main():
         if checkPandigital(str(int(''.join(each)))):
             finalSum += int(''.join(each))
 
-    print finalSum
+    print(finalSum)
     return
 
 def checkPandigital(number):

@@ -31,8 +31,8 @@ def main():
     total = 0
     for each in amicableSum:
         total += each
-    print total
-    print time.time() - start_time
+    print(total)
+    print(time.time() - start_time)
 
 
 def getFactors(num):

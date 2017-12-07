@@ -12,11 +12,11 @@ def main():
                 pal.append(num)
 
     for each in pal:
-        if each > high and len(each) >= 6:
+        if int(each) > int(high) and len(each) >= 6:
             high = each
-            print each
+            print(each)
 
-    print high
+    print(high)
 
 
 if __name__ == '__main__':

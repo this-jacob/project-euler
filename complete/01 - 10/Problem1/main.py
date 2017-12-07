@@ -8,7 +8,7 @@ def main():
         elif i % 5 == 0:
             total += i
 
-    print total
+    print(total)
 
 if __name__ == '__main__':
     main()

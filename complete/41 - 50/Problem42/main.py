@@ -28,16 +28,16 @@ def main():
         triangles.append(int(last))
 
     triangles.pop(0)
-    print triangles
+    print(triangles)
 
     #calculate word values
     for each in words:
-        print each ,
+        print(each ,)
         if int(wordVal(each)) in triangles:
             total += 1
 
-    print total
-    print time() - start
+    print(total)
+    print(time() - start)
 
 def wordVal(n):
     ALPHA = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y' ,'z']

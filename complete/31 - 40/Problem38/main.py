@@ -29,10 +29,10 @@ def main():
         i += 1
 
         if i % 10000 == 0:
-            print i
+            print(i)
 
-    print largestConPan
-    print time() - start
+    print(largestConPan)
+    print(time() - start)
 
 def isPan(n):
     if '0' in str(n):

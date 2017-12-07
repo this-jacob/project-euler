@@ -7,7 +7,7 @@ def main():
     for char in str(value):
         total += int(char)
 
-    print total
+    print(total)
 
 if __name__ == '__main__':
     main()

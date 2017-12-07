@@ -24,8 +24,8 @@ def main():
 
     number += str(s[0])
 
-    print number
-    print time.time() - start_time
+    print(number)
+    print(time.time() - start_time)
 
 def fact(n):
     out = 1

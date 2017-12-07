@@ -35,7 +35,7 @@ def main():
             factors.append(p)
             num /= p
 
-    print factors[::-1]
+    print(factors[::-1])
 
 
 if __name__ == '__main__':

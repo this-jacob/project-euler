@@ -21,10 +21,10 @@ def main():
                 afin = a
                 bfin = b
                 count = n
-        print a
+        print(a)
 
-    print afin * bfin
-    print time() - start_time
+    print(afin * bfin)
+    print(time() - start_time)
 
 def isPrime(n):
     for i in range(2, int(math.ceil(n ** 0.5)) + 1):

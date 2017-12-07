@@ -9,3 +9,5 @@ position and adding these values we form a word value. For example, the word val
 
 Using words.txt (right click and 'Save Link/Target As...'), a 16K text file containing nearly two-thousand
 common English words, how many are triangle words?
+
+Solution: 162

@@ -14,8 +14,8 @@ def main():
     for i in matches:
         total += i
 
-    print total
-    print time() - start
+    print(total)
+    print(time() - start)
 
 def findPowerSum(i):
 

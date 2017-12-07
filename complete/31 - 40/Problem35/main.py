@@ -9,11 +9,11 @@ def main():
     for i in range(2, 1000001):
         if prime(i):
             if circPrime(i):
-                print i
+                print(i)
                 count += 1
 
-    print count
-    print time() - start
+    print(count)
+    print(time() - start)
 
 def circPrime(n):
 

@@ -11,8 +11,8 @@ def main():
         if digitsFact(i) == i:
             summ += i
 
-    print summ
-    print time() - start
+    print(summ)
+    print(time() - start)
 
 def digitsFact(n):
 

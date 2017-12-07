@@ -7,15 +7,15 @@ def main():
 
     largestPanPrime = 0
 
-    for n in reversed(xrange(1, 987654322)):
+    for n in reversed(range(1, 987654322)):
         if isPan(n):
             if prime(n):
-                print n
-                print time() - start
+                print(n)
+                print(time() - start)
                 raw_input()
 
         if n % 100000 == 0:
-            print n
+            print(n)
 
 def isPan(n):
     if '0' in str(n):

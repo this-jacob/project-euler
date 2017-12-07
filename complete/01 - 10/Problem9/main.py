@@ -5,7 +5,7 @@ def main():
             for c in range(1, 997):
                 if a + b + c ==  1000:
                     if a ** 2 + b ** 2 == c ** 2:
-                        print a * b * c
+                        print(a * b * c)
 
 
 
